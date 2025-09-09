@@ -27,8 +27,10 @@
       "permissions": [
         "android.permission.READ_EXTERNAL_STORAGE",
         "android.permission.WRITE_EXTERNAL_STORAGE",
-        "android.permission.CAMERA"
-      ]
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.tuhindon.yessir"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -43,7 +45,10 @@
       ]
     ],
     "extra": {
-      "clerkPublishableKey": "pk_test_ZXF1YWwtY3Jhd2RhZC03NS5jbGVyay5hY2NvdW50cy5kZXYk"
+      "clerkPublishableKey": "pk_test_ZXF1YWwtY3Jhd2RhZC03NS5jbGVyay5hY2NvdW50cy5kZXYk",
+      "eas": {
+        "projectId": "d5d97276-3f4d-4340-adcf-596c1aae433a"
+      }
     },
     "scheme": "yes-sir"
   }

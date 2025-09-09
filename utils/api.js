@@ -1,5 +1,5 @@
-// API base URL - using IP address for React Native connectivity
-const API_BASE_URL = 'http://192.168.0.220:5000/api';
+// API base URL - using Render deployed server
+const API_BASE_URL = 'https://yessirbackend.onrender.com/api';
 
 // Helper function to make API calls
 const apiCall = async (endpoint, options = {}) => {
